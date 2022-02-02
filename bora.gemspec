@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.required_ruby_version = '>= 2.2.0'
 
-  spec.add_dependency 'aws-sdk', '~> 3.0'
+  spec.add_dependency 'aws-sdk', '~> 2.0'
   spec.add_dependency 'cfndsl', '~> 0.4'
   spec.add_dependency 'colorize', '~> 0.7'
   spec.add_dependency 'deep_merge', '~> 1.1'
